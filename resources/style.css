@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(244, 243, 238);
+  font-family: 'Muli', sans-serif;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+align-items: center;
+}
