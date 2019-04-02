@@ -6,6 +6,13 @@ body {
 .logo {
   display: flex;
   justify-content: center;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.logo img {
+  width: 50%;
+  height: 50%;
 }
 
 .details {
@@ -13,10 +20,22 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  line-height: .5rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
+}
+
+.details p {
+  height: auto;
+  text-align: center;
+  line-height: 1rem;
 }
 
  #contact {
   font-size: 2.5rem;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: .7rem;
 }
