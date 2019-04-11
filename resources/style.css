@@ -27,6 +27,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 2rem;
+  height: auto;
 }
 
 .details p {
@@ -66,8 +67,8 @@ body {
   }
 
   .mobiLogo img {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
   }
 
   .mobiDetails {
@@ -79,20 +80,20 @@ body {
   }
 
   .mobiDetails p {
-      height: auto;
-      text-align: center;
-      line-height: 1.3rem;
-      font-size: 1.2rem;
-    }
+    height: auto;
+    text-align: center;
+    line-height: 1.3rem;
+    font-size: 1.1rem;
+  }
 
     #mobiContact {
       font-size: 3rem;
-    }
+  }
 
-    .mobiCopyright {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      font-size: 1rem;
-    }
+  .mobiCopyright {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1rem;
+  }
   }
